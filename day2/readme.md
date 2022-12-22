@@ -1,22 +1,23 @@
-# İkinci Gün
+# 📔 2.Gün
 
 ## Verilənlər (data) tipləri
 
 Bir öncəki dərsimizdə verilənlər tipləri haqqında biraz məlumat əldə etdik. Verilənlər vəya dəyərlərin bir verilən (data) növü vardır.
 Verilən (data) növləri verilənlərin xüsusiyyətlərini təsvir edir. Verilənlər (data) növlərini iki yerə bölmək olar:
-1.Primitiv məlumat (data) növləri
-2.Primitiv olmayan məlumat (data) növləri (Obyekt İstinadları)
+
+1. Primitiv məlumat (data) növləri
+2. Primitiv olmayan məlumat (data) növləri (Obyekt İstinadları)
 
 ## Primitiv məlumat (data) növləri
 
 JavaScript-də primitiv məlumat növlərinə aşağıdakılar daxildir:
 
-- 1.Rəqəmlər (numbers) - Tam ve kəsr ədədlər (integer, floats)
-- 2.Sətir (strings) - Tək dırnaq, cüt dırnaq, tərs dırnaq ilı yazılan bütün məlumatlar (data)
-- 3.Booleanlar (booleans) - Doğru vəya yalnış
-- 4.Null - Boş dəyər vəya dəyərin olmaması
-- 5.Məchul (Undefined) - Hər hansı dəyər əlavə edilməmiş bir dəyişkən
-- 6.Simvol (Symbol) - Simvol konstruktoru tərəfindən yaradıla bilən unikal dəyər
+1.  Rəqəmlər (numbers) - Tam ve kəsr ədədlər (integer, floats)
+2.  Sətir (strings) - Tək dırnaq, cüt dırnaq, tərs dırnaq ilı yazılan bütün məlumatlar (data)
+3.  Booleanlar (booleans) - Doğru vəya yalnış
+4.  Null - Boş dəyər vəya dəyərin olmaması
+5.  Məchul (Undefined) - Hər hansı dəyər əlavə edilməmiş bir dəyişkən
+6.  Simvol (Symbol) - Simvol konstruktoru tərəfindən yaradıla bilən unikal dəyər
 
 JavaScript-də primitiv olmayan məlumat növlərinə aşağıdakılar daxildir:
 
