@@ -21,11 +21,19 @@ JavaScript-də primitiv məlumat növlərinə aşağıdakılar daxildir:
 
 JavaScript-də primitiv olmayan məlumat növlərinə aşağıdakılar daxildir:
 
-    1.Obyektlər (Objects)
-    2.Massivlər (Arrays)
+1. Obyektlər (Objects)
+2. Massivlər (Arrays)
 
 Gəlin primitiv və primitiv olmayan məlumat tiplərinin nə olduğuna baxaq. Primitiv məlumat növləri dəyişməz (dəyişdirilə bilməyən) məlumat növləridir. Primitiv məlumat növü yaradıldıqdan sonra onu dəyişdirə bilmərik.
 
 Məsələn:
 
-    let word = 'JavaScript'
+```js
+let word = "JavaScript";
+```
+
+Əyər biz bu sözdəki string'i dəyişdirməyə çalışsaq, javaScript bizə xəta verəcək. Tək dırnaq, dırnaq, tərs dırnaq(backtik) içərisində istənilən verilənlər tipi(data type) bir **string** verilən tipidir(data type).
+
+```js
+word[0] = "Y";
+```
