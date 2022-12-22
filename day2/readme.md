@@ -11,12 +11,12 @@ Verilən (data) növləri verilənlərin xüsusiyyətlərini təsvir edir. Veril
 
 JavaScript-də primitiv məlumat növlərinə aşağıdakılar daxildir:
 
-    1.Rəqəmlər  (numbers) - Tam ve natamam rəqəmlər (integer, floats)
-    2.Sətir (strings) - Tək dırnaq, cüt dırnaq, tərs dırnaq ilı yazılan bütün məlumatlar (data)
-    3.Booleanlar (booleans) - Doğru vəya yalnış
-    4.Null - Boş dəyər vəya dəyərin olmaması
-    5.Tanımlanmayan (Undefined) - Hər hansı dəyər əlavə edilməmiş bir dəyişkən.
-    6.Simvol (Symbol) - Simvol konstruktoru tərəfindən yaradıla bilən unikal dəyər
+- 1.Rəqəmlər (numbers) - Tam ve kəsr ədədlər (integer, floats)
+- 2.Sətir (strings) - Tək dırnaq, cüt dırnaq, tərs dırnaq ilı yazılan bütün məlumatlar (data)
+- 3.Booleanlar (booleans) - Doğru vəya yalnış
+- 4.Null - Boş dəyər vəya dəyərin olmaması
+- 5.Məchul (Undefined) - Hər hansı dəyər əlavə edilməmiş bir dəyişkən
+- 6.Simvol (Symbol) - Simvol konstruktoru tərəfindən yaradıla bilən unikal dəyər
 
 JavaScript-də primitiv olmayan məlumat növlərinə aşağıdakılar daxildir:
 
