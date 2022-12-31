@@ -559,4 +559,4 @@ You are 30 years old.
 
 🎉 TƏBRİK EDİRİK ! 🎉
 
-[Gün 2 >>](./day2/readme.md)
+[Gün 2 >>](../day2/readme.md)
