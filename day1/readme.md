@@ -1,108 +1,4 @@
-# 30 Günlük JavaScript dərsləri 
-
-| # Gün |                                                                       Mövzular                                                                      |
-| ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                             [Giriş](./readMe.md)                                                             |
-| 02    |                                               [Data Types](./02_Day_Data_types/02_day_data_types.md)                                                |
-| 03    |                             [Booleans, Operators, Date](./03_Day_Booleans_operators_date/03_booleans_operators_date.md)                             |
-| 04    |                                            [Conditionals](./04_Day_Conditionals/04_day_conditionals.md)                                             |
-| 05    |                                                     [Arrays](./05_Day_Arrays/05_day_arrays.md)                                                      |
-| 06    |                                                       [Loops](./06_Day_Loops/06_day_loops.md)                                                       |
-| 07    |                                                 [Functions](./07_Day_Functions/07_day_functions.md)                                                 |
-| 08    |                                                    [Objects](./08_Day_Objects/08_day_objects.md)                                                    |
-| 09    |                             [Higher Order Functions](./09_Day_Higher_order_functions/09_day_higher_order_functions.md)                              |
-| 10    |                                           [Sets and Maps](./10_Day_Sets_and_Maps/10_day_Sets_and_Maps.md)                                           |
-| 11    |                      [Destructuring and Spreading](./11_Day_Destructuring_and_spreading/11_day_destructuring_and_spreading.md)                      |
-| 12    |                                  [Regular Expressions](./12_Day_Regular_expressions/12_day_regular_expressions.md)                                  |
-| 13    |                             [Console Object Methods](./13_Day_Console_object_methods/13_day_console_object_methods.md)                              |
-| 14    |                                         [Error Handling](./14_Day_Error_handling/14_day_error_handling.md)                                          |
-| 15    |                                                    [Classes](./15_Day_Classes/15_day_classes.md)                                                    |
-| 16    |                                                        [JSON](./16_Day_JSON/16_day_json.md)                                                         |
-| 17    |                                            [Web Storages](./17_Day_Web_storages/17_day_web_storages.md)                                             |
-| 18    |                                                  [Promises](./18_Day_Promises/18_day_promises.md)                                                   |
-| 19    |                                                   [Closure](./19_Day_Closures/19_day_closures.md)                                                   |
-| 20    |                                  [Writing Clean Code](./20_Day_Writing_clean_codes/20_day_writing_clean_codes.md)                                   |
-| 21    |                                                          [DOM](./21_Day_DOM/21_day_dom.md)                                                          |
-| 22    |                            [Manipulating DOM Object](./22_Day_Manipulating_DOM_object/22_day_manipulating_DOM_object.md)                            |
-| 23    |                                        [Event Listeners](./23_Day_Event_listeners/23_day_event_listeners.md)                                        |
-| 24    |                             [Mini Project: Solar System](./24_Day_Project_solar_system/24_day_project_solar_system.md)                              |
-| 25    | [Mini Project: World Countries Data Visulalization 1](./25_Day_World_countries_data_visualization_1/25_day_world_countries_data_visualization_1.md) |
-| 26    | [Mini Project: World Countries Data Visulalization 2](./26_Day_World_countries_data_visualization_2/26_day_world_countries_data_visualization_2.md) |
-| 27    |                             [Mini Project: Portfolio](./27_Day_Mini_project_portfolio/27_day_mini_project_portfolio.md)                             |
-| 28    |                          [Mini Project: Leaderboard](./28_Day_Mini_project_leaderboard/28_day_mini_project_leaderboard.md)                          |
-| 29    |             [Mini Project:Animating characters](./29_Day_Mini_project_animating_characters/29_day_mini_project_animating_characters.md)             |
-| 30    |                                     [Final Projects](./30_Day_Mini_project_final/30_day_mini_project_final.md)                                      |
-
-🧡🧡🧡 Xoş kodlamalar 🧡🧡🧡
-
-<div>
-<small><strong>Müəllifi</strong> dəstəkləməklə daha çox təhsil materialı yaratmasına kömək ola bilərsiniz</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='../images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
-</div>
-
-<div align="center">
-  <h1> 30 Günlük JavaScript: Giriş</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Yanvar, 2020</small>
-</sub>
-
-  <div>
-
-🇬🇧 [English](./readMe.md)
-🇪🇸 [Spanish](./Spanish/readme.md)
-🇷🇺 [Russian](./RU/README.md)
-Az [Azerbaijan](./Azerbaijani/readMe.md)
-
-  </div>
-
-</div>
-</div>
-
-[Gün 2 >>](./02_Day_Data_types/02_day_data_types.md)
-
-![30 Günlük JavaScript dərsləri](../images/day_1_1.png)
-
-- [30 Günlük JavaScript dərsləri](#30-days-of-javascript)
-- [📔 Gün 1](#-day-1)
-  - [Giriş](#introduction)
-  - [İlkin tələblər](#requirements)
-  - [Hazırlıq](#setup)
-    - [Node.js yüklə](#install-nodejs)
-    - [Brauzer](#browser)
-      - [Google Chrome yüklənməsi](#installing-google-chrome)
-      - [Google Chrome brauzer konsolu açmaq](#opening-google-chrome-console)
-      - [Brauzer konsolunda kod yazılması](#writing-code-on-browser-console)
-        - [Console.log](#consolelog)
-        - [Console.log - birneçə arqument ilə](#consolelog-with-multiple-arguments)
-        - [Şərhlər](#comments)
-        - [Sintaksis](#syntax)
-      - [Riyazi əməliyyatlar](#arithmetics)
-    - [Kod editoru](#code-editor)
-      - [Visual Studio Code'un yüklənməsi](#installing-visual-studio-code)
-      - [Visual Studio Code istifadəsi](#how-to-use-visual-studio-code)
-  - [Veb səhifəyə JavaScript əlavə edilməsi](#adding-javascript-to-a-web-page)
-    - [Sətirdaxili (inline) skript](#inline-script)
-    - [Daxili (internal) skript](#internal-script)
-    - [Xarici skript](#external-script)
-    - [Birneçə xarici skript](#multiple-external-scripts)
-  - [Verilənlərin tiplərinə giriş](#introduction-to-data-types)
-    - [Ədəd tipləri](#numbers)
-    - [Sətir tipləri](#strings)
-    - [Məntiqi tiplər](#booleans)
-    - [Undefined](#undefined)
-    - [Null](#null)
-  - [Verilənlərin tiplərinin yoxlanılması](#checking-data-types)
-  - [Şərhlər (daha artıq)](#comments-again)
-  - [Dəyişənlər](#variables)
-- [💻 Gün 1: Tapşırıqlar](#-day-1-exercises)
+# 30 Günlük JavaScript dərsləri
 
 # 📔 Gün 1
 
@@ -199,20 +95,20 @@ Ctl+Shift+I
 İlk JavaScript kodumuzu yazmaq üçün biz daxili funksiyadan istifadə etdik **console.log()**. Biz arqumenti giriş məlumatları kimi ötürdük və funksiya çıxışı göstərir. Biz console.log() funksiyasında giriş məlumatı və ya arqument kimi "Salam, Dünya"nı ötürdük.
 
 ```js
-console.log('Salam, Dünya!')
+console.log("Salam, Dünya!");
 ```
 
 ##### Console.log - birneçə arqument ilə
 
-**console.log()** funksiyasi vergüllə ayrılmış istənilən sayda parametri qəbul edə bilər. 
+**console.log()** funksiyasi vergüllə ayrılmış istənilən sayda parametri qəbul edə bilər.
 Sintaksis: **console.log(param1, param2, param3)**
 
 ![console log - birneçə arqument ilə](../images/console_log_multipl_arguments.png)
 
 ```js
-console.log('Hello', 'World', '!')
-console.log('HAPPY', 'NEW', 'YEAR', 2020)
-console.log('Welcome', 'to', 30, 'Days', 'Of', 'JavaScript')
+console.log("Hello", "World", "!");
+console.log("HAPPY", "NEW", "YEAR", 2020);
+console.log("Welcome", "to", 30, "Days", "Of", "JavaScript");
 ```
 
 Yuxarıdakı kod parçasından göründüyü kimi, _console.log()_ çoxlu arqument qəbul edə bilər.
@@ -227,15 +123,15 @@ Kodumuza şərhlər əlavə edirik. Kodu daha oxunaqlı etmək və kodumuzda qey
 
 // Bu bir şərhdir  
  // Bu da bir şərhdir
- // Bu da həmçinin
+// Bu da həmçinin
 
 **Nümunə: Çoxsətirli şərhlər**
 
-/*
+/_
 Çoxsətirli şərhlər  
  Çoxsətirli şərhlər bir neçə sətiri ehtiva edə bilir  
  JavaScript web-in dilidir  
- */
+ _/
 
 ##### Sintaksis
 
@@ -244,9 +140,10 @@ Proqramlaşdırma dilləri insan dillərinə bənzəyir. İngilis və ya bir ço
 ![Errorlar](../images/raising_syntax_error.png)
 
 Mən qəsdən səhv etdim. Nəticədə, konsol sintaksis səhvlərini qaytarır. Əslində, sintaksis çox informativdir. Hansı növ səhvə yol verildiyini bildirir. Səhv rəyi təlimatını oxumaqla biz sintaksisi düzəldə və problemi həll edə bilərik. Proqramdakı xətaların müəyyən edilməsi və aradan qaldırılması prosesi "debugging" adlanır. Gəlin səhvləri düzəldək:
+
 ```js
-console.log('Hello, World!')
-console.log('Hello, World!')
+console.log("Hello, World!");
+console.log("Hello, World!");
 ```
 
 İndiyə qədər biz _console.log()_ istifadə edərək mətnin necə göstərildiyini gördük. Əgər biz _console.log()_ istifadə edərək mətni və ya sətri çap ediriksə, mətn tək dırnaqlar, qoşa dırnaqlar və ya əks dırnaqlar (backtick) içərisində olmalıdır.
@@ -254,9 +151,9 @@ console.log('Hello, World!')
 **Nümunə:**
 
 ```js
-console.log('Hello, World!')
-console.log("Hello, World!")
-console.log(`Hello, World!`)
+console.log("Hello, World!");
+console.log("Hello, World!");
+console.log(`Hello, World!`);
 ```
 
 #### Riyazi əməliyyatlar
@@ -269,12 +166,12 @@ Konsol **_console.log()_** funksiyası olmadan birbaşa arqumentlər qəbul edə
 ![Riyazi hesablamalar](../images/arithmetic.png)
 
 ```js
-console.log(2 + 3) // Toplama
-console.log(3 - 2) // Çıxma
-console.log(2 * 3) // Vurma
-console.log(3 / 2) // Bölmə
-console.log(3 % 2) // Qalığın tapılması
-console.log(3 ** 2) // Qüvvət üstü. Yəni, 3 ** 2 == 3 * 3
+console.log(2 + 3); // Toplama
+console.log(3 - 2); // Çıxma
+console.log(2 * 3); // Vurma
+console.log(3 / 2); // Bölmə
+console.log(3 % 2); // Qalığın tapılması
+console.log(3 ** 2); // Qüvvət üstü. Yəni, 3 ** 2 == 3 * 3
 ```
 
 ### Mətn redaktoru
@@ -307,7 +204,7 @@ Yüklənmə uğurla başa çatdıqdan sonra Visual Studio Code ikonuna 2 ardıc�
 
 ![Kodun icrası](../images/launched_on_new_tab.png)
 
-## Veb səhifəyə JavaScript əlavə olunması 
+## Veb səhifəyə JavaScript əlavə olunması
 
 JavaScript kodu veb səhifəyə 3 üsulla əlavə edilə bilər:
 
@@ -329,7 +226,9 @@ Aşağıdakı bölmələr veb səhifənizə JavaScript kodu əlavə etməyin mü
     <title>30DaysOfScript: Sətirdaxili skript</title>
   </head>
   <body>
-    <button onclick="alert('30DaysOfJavaScript dərsliyinə xoş gəlmişsiniz')">Kliklə</button>
+    <button onclick="alert('30DaysOfJavaScript dərsliyinə xoş gəlmişsiniz')">
+      Kliklə
+    </button>
   </body>
 </html>
 ```
@@ -347,7 +246,7 @@ Daxili skript _head_ və ya _body_ ilə yazıla bilər, lakin onu HTML sənədin
   <head>
     <title>30DaysOfScript: Daxili skript</title>
     <script>
-      console.log('30DaysOfJavaScript-ə xoş gəlmişsiniz')
+      console.log("30DaysOfJavaScript-ə xoş gəlmişsiniz");
     </script>
   </head>
   <body></body>
@@ -363,9 +262,11 @@ Daxili skript _head_ və ya _body_ ilə yazıla bilər, lakin onu HTML sənədin
     <title>30DaysOfScript: Daxili skript</title>
   </head>
   <body>
-    <button onclick="alert('30DaysOfJavaScript-ə xoş gəlmişsiniz');">Kliklə</button>
+    <button onclick="alert('30DaysOfJavaScript-ə xoş gəlmişsiniz');">
+      Kliklə
+    </button>
     <script>
-      console.log('30DaysOfJavaScript-ə xoş gəlmişsiniz')
+      console.log("30DaysOfJavaScript-ə xoş gəlmişsiniz");
     </script>
   </body>
 </html>
@@ -381,7 +282,7 @@ Daxili skriptə bənzər şəkildə, xarici skript bağlantısı başlıqda (hea
 Əvvəlcə .js uzantılı xarici JavaScript faylı yaratmalıyıq. .js uzantısı ilə bitən bütün fayllar JavaScript fayllarıdır. Layihə qovluğunda introduction.js adlı fayl yaradın və aşağıdakı kodu yazın və bu .js faylını gövdənin aşağı hissəsində əlaqələndirin.
 
 ```js
-console.log('30 Günlük JS dərsləri')
+console.log("30 Günlük JS dərsləri");
 ```
 
 _head_ hissəsində JavaScript faylına istinad:
@@ -406,7 +307,7 @@ _body_ hissəsində JavaScript faylına istinad:
     <title>30DaysOfJavaScript: Xarici skript faylı</title>
   </head>
   <body>
-    <!-- Əvvəldə vurğuladığımız kimi həm head həm body hissəsində ola bilər --> 
+    <!-- Əvvəldə vurğuladığımız kimi həm head həm body hissəsində ola bilər -->
     <!-- Lakin aşağıda göstərilən kimi (body hissəsində) olması arzuolunandır -->
     <script src="introduction.js"></script>
   </body>
@@ -421,7 +322,7 @@ Biz həmçinin bir neçə xarici JavaScript faylına veb səhifədə istinad ed�
 30DaysOfJS qovluğunda helloworld.js faylı yaradın və aşağıdakı kodu yazın.
 
 ```js
-console.log('Salam, dünya!')
+console.log("Salam, dünya!");
 ```
 
 ```html
@@ -461,13 +362,12 @@ JavaScript-də və digər proqramlaşdırma dillərində müxtəlif növ məluma
 **Nümunə:**
 
 ```js
-'Asabeneh'
-'Finland'
-'JavaScript is a beautiful programming language'
-'I love teaching'
-'I hope you are enjoying the first day'
-`We can also create a string using a backtick`
-'A string could be just as small as one character as big as many pages'
+"Asabeneh";
+"Finland";
+"JavaScript is a beautiful programming language";
+"I love teaching";
+"I hope you are enjoying the first day"`We can also create a string using a backtick`;
+("A string could be just as small as one character as big as many pages");
 ```
 
 ### Məntiqi ifadələr
@@ -477,8 +377,8 @@ Məntiqi tiplər yalnız iki mümkün qiymətdən birini ala bilən ifadələrdi
 **Nümunə:**
 
 ```js
-true 
-false 
+true;
+false;
 ```
 
 ### Undefined
@@ -486,8 +386,8 @@ false
 JavaScript-də dəyişənə ilkin qiymət təyin etməsək, _undefined_ tipi verilir. Bundan əlavə, funksiya heç nə qaytarmırsa, susmaya görə _undefined_ qaytarır.
 
 ```js
-let firstName
-console.log(firstName) // undefined, çünki dəyişənə ilkin qiymət təyin edilməyib
+let firstName;
+console.log(firstName); // undefined, çünki dəyişənə ilkin qiymət təyin edilməyib
 ```
 
 ### Null
@@ -495,7 +395,7 @@ console.log(firstName) // undefined, çünki dəyişənə ilkin qiymət təyin e
 JavaScript-də null boş dəyər deməkdir.
 
 ```js
-let emptyValue = null
+let emptyValue = null;
 ```
 
 ## Verilənlər tiplərinin yoxlanılması
@@ -503,11 +403,11 @@ let emptyValue = null
 Hər hansi müəyyən olunmuş dəyişənin tipini tapmaq üçün **typeof** operatoru istifadə oluna bilər. Nümunəyə nəzər yetirin.
 
 ```js
-console.log(typeof 'Asabeneh') // string
-console.log(typeof 5) // number
-console.log(typeof true) // boolean
-console.log(typeof null) // object type
-console.log(typeof undefined) // undefined
+console.log(typeof "Asabeneh"); // string
+console.log(typeof 5); // number
+console.log(typeof true); // boolean
+console.log(typeof null); // object type
+console.log(typeof undefined); // undefined
 ```
 
 ## Şərhlər (daha artıq)
@@ -535,7 +435,7 @@ Bildiyimiz kimi JavaScript-də şərh yazmaq digər proqramlaşdırma dillərin�
 */
 ```
 
-## Dəyişıənlər
+## Dəyişənlər
 
 Dəyişənlər məlumatların yaddaşda saxlanması üçün istifadə olunur. Dəyişən elan edildikdə, yaddaş yeri rezerv olunur. Dəyişən təyin edildikdə, yaddaş sahəsində həmin verilənlər saxlanılır. Dəyişən elan etmək üçün biz _var_, _let_ və ya _const_ açar sözlərindən istifadə edirik.
 
@@ -544,32 +444,32 @@ Qİyməti proqram daxilində dəyişən dəyişənlər üçün biz _let_ istifad
 Düzgün JavaScript dəyişən adı aşağıdakı qaydalara əməl etməlidir:
 
 - Rəqəmlə başlaya bilməz.
-- $ və _ istisna olmaqla xüsusi simvolların istifadəsinə icazə verilmir.
+- $ və \_ istisna olmaqla xüsusi simvolların istifadəsinə icazə verilmir.
 - Adətən camelCase konvensiyasına əsaslanaraq adlandırılır.
 - Sözlər və ya dəyişən adının hissələri arasında boşluq olmaz.
 
 Düzgün dəyişən adları nümunələri:
 
 ```js
-firstName
-lastName
-country
-city
-capitalCity
-age
-isMarried
+firstName;
+lastName;
+country;
+city;
+capitalCity;
+age;
+isMarried;
 
-first_name
-last_name
-is_married
-capital_city
+first_name;
+last_name;
+is_married;
+capital_city;
 
-num1
-num_1
-_num_1
-$num1
-year2020
-year_2020
+num1;
+num_1;
+_num_1;
+$num1;
+year2020;
+year_2020;
 ```
 
 Siyahıdakı birinci və ikinci dəyişənlər JavaScript-də elan etmək üçün camelCase konvensiyasına uyğundur. Bu dərslikdə biz camelCase dəyişənlərindən istifadə edəcəyik.
@@ -586,21 +486,21 @@ Müxtəlif verilən tipləri ilə dəyişənləri elan edək. Dəyişən elan et
 
 ```js
 // Sintaksis
-let nameOfVariable = value
+let nameOfVariable = value;
 ```
 
 **Nümunələr**
 
 ```js
 // Müxtəlif verilənlər tipindən istifadə edərək dəyişənlərin yaradılmasə
-let firstName = 'Asabeneh'    // ad
-let lastName = 'Yetayeh'      // soyad
-let country = 'Finland'       // ölkə
-let city = 'Helsinki'         // paytaxt
-let age = 100                 // yaş
-let isMarried = true
+let firstName = "Asabeneh"; // ad
+let lastName = "Yetayeh"; // soyad
+let country = "Finland"; // ölkə
+let city = "Helsinki"; // paytaxt
+let age = 100; // yaş
+let isMarried = true;
 
-console.log(firstName, lastName, country, city, age, isMarried)
+console.log(firstName, lastName, country, city, age, isMarried);
 ```
 
 ```sh
@@ -609,11 +509,11 @@ Asabeneh Yetayeh Finland Helsinki 100 true
 
 ```js
 // ədəd tipli dəyişənlərin sabit açar sözü ilə yaradılması
-let age = 100 // yaş
-const gravity = 9.81         // Fizikada istifadə olunan qravitasiya sabiti
-const boilingPoint = 100     // Normal atmosfer təzyiqində suyun qaynama tempraturu
-const PI = 3.14              // Geometrik sabit
-console.log(gravity, boilingPoint, PI)
+let age = 100; // yaş
+const gravity = 9.81; // Fizikada istifadə olunan qravitasiya sabiti
+const boilingPoint = 100; // Normal atmosfer təzyiqində suyun qaynama tempraturu
+const PI = 3.14; // Geometrik sabit
+console.log(gravity, boilingPoint, PI);
 ```
 
 ```sh
@@ -622,17 +522,17 @@ console.log(gravity, boilingPoint, PI)
 
 ```js
 // Yalnız bir açar sözü istifadə etməklə müxtəlif dəyişənlər vergüllə ayrılmış şəkildə yaradıla bilər
-let name = 'Asabeneh',     //ad
-  job = 'teacher',         // vəzifə
-  live = 'Finland'         // ölkə  
-console.log(name, job, live)
+let name = "Asabeneh", //ad
+  job = "teacher", // vəzifə
+  live = "Finland"; // ölkə
+console.log(name, job, live);
 ```
 
 ```sh
 Asabeneh teacher Finland
 ```
 
-01_Giriş qovluqda _index.html_ faylını işə saldığınız zaman bunu əldə etməlisiniz:
+01*Giriş qovluqda \_index.html* faylını işə saldığınız zaman bunu əldə etməlisiniz:
 
 ![Gün 1](../images/day_1.png)
 
@@ -659,4 +559,4 @@ You are 30 years old.
 
 🎉 TƏBRİK EDİRİK ! 🎉
 
-[Gün 2 >>](./02_Day_Data_types/02_day_data_types.md)
+[Gün 2 >>](./day2/readme.md)
