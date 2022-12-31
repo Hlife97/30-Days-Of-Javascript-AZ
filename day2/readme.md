@@ -129,7 +129,7 @@ const bodyTemp = 37; // oC sabit olan orta insan bədən temperaturu
 console.log(age, gravity, mass, PI, boilingPoint, bodyTemp);
 ```
 
-## Riyaziyyat obyekti(Math Object)
+## Riyaziyyat obyekti (Math Object)
 
 JavaScript-də Riyaziyyat Obyekti rəqəmlərlə işləmək üçün çoxlu üsullar təqdim edir.
 
@@ -191,7 +191,7 @@ Math.cos(0);
 Math.cos(60);
 ```
 
-### Təsadüfi ədəd genratoru(Random number generator)
+### Təsadüfi ədəd generatoru (Random number generator)
 
 JavaScript Riyaziyyat Obyektində 0-dan 0,999999999...-a qədər ədəd yaradan random() metodu sayı generatoru var.
 
@@ -232,7 +232,7 @@ let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.
 İki və ya daha çox sətirin bir-birinə bağlanmasına birləşmə deyilir. Əvvəlki String bölməsində elan edilmiş sətirlərdən istifadə edərək:
 
 ```js
-let fullName = firstName + space + lastName; // concatenation, merging two string together.
+let fullName = firstName + space + lastName; // birləşdirmək, iki sətri bir-birinə qovuşdurmaq.
 console.log(fullName);
 ```
 
